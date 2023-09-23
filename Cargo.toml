@@ -1,0 +1,7 @@
+
+[workspace]
+members = [
+  "./libraries/safty",
+  "./libraries/safty-waf",
+  "./applications/saftyreverseproxy"
+]

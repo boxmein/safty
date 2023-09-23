@@ -1,0 +1,17 @@
+[package]
+name = "saftyreverseproxy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+tracing-subscriber = { version = "*", features = ["fmt"] }
+tokio = { version = "1", features = ["full"] }
+safty = { path = "../../libraries/safty" }
+safty-waf = { path = "../../libraries/safty-waf" }
+hyper = { version = "0.14.26", features = ["full"] }
+tracing = "*"
+once_cell = "*"
+anyhow = "*"
